@@ -1,4 +1,4 @@
-export const App = ({ title }: { title: string }) => {
+export const App = ({ title = "Hello world" }) => {
   return (
     <>
       <h1>{title}</h1>
