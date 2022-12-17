@@ -1,7 +1,7 @@
-export const App = () => {
+export const App = ({ title }: { title: string }) => {
   return (
     <>
-      <h1>Hellow world!</h1>
+      <h1>{title}</h1>
       <p>I'm a subtitle</p>
     </>
   );
